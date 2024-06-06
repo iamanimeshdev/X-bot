@@ -9,6 +9,14 @@ A X-bot which automatically post a Quote.
 4) Install dependencies using `npm i` 
 5) Run `node index.js` 
 
+## Things to take care
+
+1) Keep your chrome-driver in folder which is already in a system variable path.(Took me forever to figure this small thing out)
+2) Can hard-code your email and password.
+3) You might get flagged and required to enter your username between entering email and password, then you can just uncomment lines  94-100 in ./WebPage.js and enter your Username there.
+4) Line 13 ./WebPage.js Enter your Chrome.exe path.
+5) You can change API in Line 120 ./WebPage.js to get whatever data You wanna post.
+   
 ## Running it on cloud instance like AWS 
 
 1) SSH into your cloud instance. 
