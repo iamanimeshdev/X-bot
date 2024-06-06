@@ -79,7 +79,7 @@ const BasePage = function () {
 
   this.signin = async function () {
     try {
-      let name = process.env.USERNAME || "";
+      let name = process.env.USERNAME || ""; //Can Hard code your username and Password if running locally.
       let password = process.env.PASSWORD || "";
 
       let input = await this.findByCss("[autocomplete='username']");
@@ -91,13 +91,13 @@ const BasePage = function () {
 
       
 
-      let unusualInput = await this.findByTestId("ocfEnterTextTextInput");
-      let unusualName=process.env.SECONDUSERNAME || "";
-      await unusualInput.sendKeys(unusualName);
+      // let unusualInput = await this.findByTestId("ocfEnterTextTextInput");
+      // let unusualName=process.env.SECONDUSERNAME || "";
+      // await unusualInput.sendKeys(unusualName);
 
-      let next2 = await this.findButtonByText("Next");
-      await sleep(2);
-      await next2.click();
+      // let next2 = await this.findButtonByText("Next");
+      // await sleep(2);
+      // await next2.click();
 
       
 
