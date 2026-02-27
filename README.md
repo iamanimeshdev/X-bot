@@ -1,4 +1,4 @@
-# X-BOT 
+# X-BOT
 A X-bot which automatically post a Quote.
 
 ## Frontend
