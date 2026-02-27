@@ -1,5 +1,8 @@
 # X-BOT 
-A X-bot which automatically post a Quote. 
+A X-bot which automatically post a Quote.
+
+## Frontend
+A simple HTML frontend is available at `index.html` that displays random quotes from the ZenQuotes API.
 
 ## Running it locally on your machine 
 
@@ -16,7 +19,7 @@ A X-bot which automatically post a Quote.
 3) You might get flagged and required to enter your username between entering email and password, then you can just uncomment lines  94-100 in ./WebPage.js and enter your Username there.
 4) Line 13 ./WebPage.js Enter your Chrome.exe path.
 5) You can change API in Line 120 ./WebPage.js to get whatever data You wanna post.
-   
+
 ## Running it on cloud instance like AWS 
 
 1) SSH into your cloud instance. 
@@ -34,4 +37,4 @@ ensp;3.c) Powershell <br /> &emsp;`> $Env:USERNAME="Replace this with your X use
 5) `cd` to project root and install dependencies using `npm i` 
 6) Run the application. <br /> 
 &ensp;6.a) Launch script by running `node index.js` <br /> 
-&ensp;6.b) Launch using pm2 by running `npm install pm2@latest -g && pm2 start index.js` <br />
+&ensp;6.b) Launch using pm2 by running `npm install pm2@latest -g && pm2 start index.js` <n
